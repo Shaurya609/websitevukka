@@ -1,0 +1,40 @@
+header>.jumbotron {
+  margin-bottom: 0%;
+  background-image: url(img/);
+  margin-top: 3%;
+}
+
+section {
+  background-color: black;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes border {
+  0% {
+    border: 8px solid white;
+  }
+
+  25% {
+    border: 8px solid red;
+  }
+
+  50% {
+    border: 8px solid white;
+  }
+
+  100% {
+    border: 8px solid red;
+  }
+}
+
+.content>h1 {
+  border-bottom: 1px solid white;
+}
