@@ -9,7 +9,53 @@ section {
 }
 
 
-.card:hover {
+#banners>.card-deck>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#merch>.card-deck>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#logos>.card-deck>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#thumbnails>.card-deck>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#thumbnails>.row>.col-sm-3>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#video>.card-deck>.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  animation-name: border;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#codes>.card-deck>.card:hover {
   transform: scale(1.05);
   z-index: 1;
   animation-name: border;
